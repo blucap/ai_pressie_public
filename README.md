@@ -21,4 +21,4 @@ Two ways to get the next three buses from Wellington Station or Lambton Quay Nor
 - `claude_prompt.md`: a Claude Code prompt that writes and runs a command-line `next_bus.py`.
 - `gemini_prompts.md`: a basic prompt and a refined prompt for Gemini in Google Colab.
 
-For the Claude version, create `met_link/metlink_key.txt` containing just your Metlink API key. Git ignores this file, so the key won't be committed. The Colab version reads the key from Colab secrets (`METLINK_API_KEY`) instead.
+For the Claude version, put your Metlink API key in `metlink_key.txt`, replacing the placeholder text. **Don't commit your real key.** The Colab version reads the key from Colab secrets (`METLINK_API_KEY`) instead.
