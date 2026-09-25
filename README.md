@@ -2,6 +2,10 @@
 
 Prompts and supporting files for the live demos in a presentation on using AI chatbots and coding agents. Most prompts use the same six blocks: **Role, Context, Task, Constraints, Format, Reasoning**.
 
+## Slides
+
+`slides/presentation.html` is the full deck in one self-contained file. Download it and open it in a browser. Press **F** for fullscreen and **O** for an overview. The source is `slides/presentation.qmd`, a Quarto revealjs file that uses `styles.css` and the images in `slides/figures/`. To rebuild the deck, run `quarto render presentation.qmd` from `slides/`.
+
 ## Demos
 
 ### `demo_monpol_review/`: persuasive-communications prompt
