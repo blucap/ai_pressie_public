@@ -4,7 +4,9 @@ Prompts and supporting files for the live demos in a presentation on using AI ch
 
 ## Slides
 
-`slides/presentation.html` is the full deck in one self-contained file. Download it and open it in a browser. Press **F** for fullscreen and **O** for an overview. The source is `slides/presentation.qmd`, a Quarto revealjs file that uses `styles.css` and the images in `slides/figures/`. To rebuild the deck, run `quarto render presentation.qmd` from `slides/`.
+**View the slides online: <https://blucap.github.io/wsbg_ai/slides/>**
+
+`slides/presentation.html` is the full deck in one self-contained file. GitHub shows it as source code, so use the link above, or download the file and open it in a browser. Press **F** for fullscreen and **O** for an overview. The source is `slides/presentation.qmd`, a Quarto revealjs file that uses `styles.css` and the images in `slides/figures/`. To rebuild the deck, run `quarto render presentation.qmd` from `slides/`.
 
 ## Demos
 
